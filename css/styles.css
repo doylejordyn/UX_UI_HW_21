@@ -1,0 +1,70 @@
+.page {font-family: 'Poppins', sans-serif;}
+
+.logoSection { 
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.navbar-custom {
+    background-color: #ECEAEF;
+
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;}
+
+.nav-item{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.headerContainer {
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/Group\ 78.png");
+    background-size: cover;
+    background-repeat: no-repeat;;
+}
+
+h1 {
+    padding-top: 160px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+.headerParagraph{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card-deck{
+    display: table-cell;
+}
+
+.card {
+    display:inline-block;
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.FeaturedAlbums {
+    display: inline-block;
+}
