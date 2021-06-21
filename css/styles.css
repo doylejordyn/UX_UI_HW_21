@@ -1,4 +1,5 @@
-.page {font-family: 'Poppins', sans-serif;}
+.page {font-family: 'Poppins', sans-serif;
+    max-width: 1440px;}
 
 .logoSection { 
     text-align: center;
@@ -14,7 +15,8 @@
 
 .navbar-nav {
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
 
 .nav-item{
     font-size: 16px;
@@ -40,31 +42,240 @@ h1 {
     font-size: 65px;
 }
 
+h2 {
+    padding-top: 30px;
+    text-align: center;
+    text-align: center;
+    color: #2F1160;
+    font-weight: 600;
+    font-size: 40px;
+}
+
 .headerParagraph{
     padding-top: 20px;
-    text-align: center;
     color: white;
     font-weight: 400;
     font-size: 20px;
+    text-align: center;
 }
 
-.card-deck{
-    display: table-cell;
+.FeaturedAlbums {
+    padding-top: 90px;
+    width: 100%;
+display: inline-block;
+text-align: center;
+}
+
+.card-deck {width: 100%;
+justify-content: center;
+text-align: center;
 }
 
 .card {
+    width: 250px;
+    margin: 10px;
     display:inline-block;
     border: none;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 60px;
     padding-left: 30px;
     text-align: center;
+
 }
 
 .card-title {
     font-size: 20px;
 }
 
-.FeaturedAlbums {
-    display: inline-block;
+.flexContainer { 
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.container {
+    width: 100%;
+}
+
+.outerContainer {
+    margin-top: 30px;
+    justify-content: center; }
+
+
+btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #4d3475 !important;
+    border: none;
+    }
+
+.btn-primary:hover {
+    background-color: #2F1160 !important;
+    }
+
+.recordGrab {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+.servicesSection {
+    padding-top: 40px;
+}
+
+.leftServices {
+    width: 50%;
+    float: left;
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+#servicesH2 {
+    text-align: left;
+}
+
+.rightServices {
+    width: 50%;
+    float: right;}
+
+.servicesUl {
+    height: 20px;
+	text-align: left;
+    display: grid;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-top: 70px;
+    color: #2F1160;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.leftColumn {grid-column: 1;}
+
+.rightColumn {grid-column: 2;}
+
+.servicesLi {
+padding-bottom: 20px;
+	list-style-type: none;
+
+}
+
+.categoriesImg {
+text-align: center;
+padding-bottom: 200px;
+}
+
+.footer {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.careHeaderContainer {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/Group\ 82.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.careBrush {
+    padding-top: 70px;
+    padding-left: 60PX;
+}
+
+.careLeft {
+    padding-left:80px;
+    padding-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+
+.careParagraphOne {
+    padding-top: 20px;
+    padding-right: 50px;
+    width: 600px;
+    font-size: 16px;
+}
+
+
+.carerightimg {
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+
+.brushImg {
+    height: 400px;
+}
+
+.careStylus {    
+    padding-top: 50px;
+    padding-left: 60PX;
+}
+
+.careRight {    
+    padding-right:80px;
+    padding-top: 40px;
+    float: right;
+    width: 50%;}
+
+.careLeftimg {
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+
+.careCloth {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.careLeftTwo {
+    padding-left:150px;
+    padding-top: 100px;
+    float: left;
+    width: 50%;
+}
+
+.careRightimgTwo {    
+    width: 50%;
+    float: right;
+    padding-right: 90px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;}
+
+
+.SellingHeaderContainer {
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/Group\ 81.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.sellingParagraphs {
+    width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.sellingTitle { padding-top: 70px;}
